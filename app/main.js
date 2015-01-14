@@ -3,8 +3,8 @@ $(function() {
   
   var scrollMagicController = new ScrollMagic();
   
-  var tween1 = TweenMax.to('#animation-1', 0.3, {
-    backgroundColor: 'rgb(255, 39, 46)',
+  var tween1 = TweenMax.to('#animation-1', 0.9, {
+    background: 'rgb(255, 39, 46, 0.7)',
     scale: 10,
     rotation: 360
   });
@@ -17,7 +17,7 @@ $(function() {
   .addTo(scrollMagicController);
   
     // Create Animation for 0.5s
-  var tween2 = TweenMax.to('#animation-2', 0.3, {
+  var tween2 = TweenMax.to('#animation-2', 0.9, {
     backgroundColor: 'rgb(0, 255, 187)',
     scale: 10,
     rotation: 360
@@ -34,7 +34,7 @@ $(function() {
   
   
       // Create Animation for 0.5s
-  var tween3 = TweenMax.to('#animation-3', 0.3, {
+  var tween3 = TweenMax.to('#animation-3', 0.9, {
     backgroundColor: 'rgb(17, 0, 98)',
     scale: 10,
     rotation: 360
@@ -50,13 +50,13 @@ $(function() {
 
 
         // Create Animation for 0.5s
-  var tween4 = TweenMax.to('#animation-4', 0.3, {
+  var tween4 = TweenMax.to('#animation-4', 0.9, {
     backgroundColor: 'rgb(255,247,169)',
     scale: 10,
     rotation: 360
   });
   
-  var scene3 = new ScrollScene({
+  var scene4 = new ScrollScene({
     triggerElement: '#scene-4',
     offset: 50
   })
