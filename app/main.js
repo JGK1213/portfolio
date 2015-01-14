@@ -47,14 +47,31 @@ $(function() {
   .setClassToggle('body', 'scene-3-active')
   .setTween(tween3)
   .addTo(scrollMagicController);
+
+
+        // Create Animation for 0.5s
+  var tween4 = TweenMax.to('#animation-4', 0.3, {
+    backgroundColor: 'rgb(255,247,169)',
+    scale: 10,
+    rotation: 360
+  });
+  
+  var scene3 = new ScrollScene({
+    triggerElement: '#scene-4',
+    offset: 50
+  })
+  .setClassToggle('body', 'scene-4-active')
+  .setTween(tween4)
+  .addTo(scrollMagicController);
   
   
   
   
   
   // Add debug indicators fixed on right side
-   scene1.addIndicators();
-     scene2.addIndicators();
+  scene1.addIndicators();
+  scene2.addIndicators();
   scene3.addIndicators();
+  scene4.addIndicators();
   
 });
