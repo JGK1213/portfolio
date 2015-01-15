@@ -38,3 +38,12 @@
 	triggerBttn.addEventListener( 'click', toggleOverlay );
 	closeBttn.addEventListener( 'click', toggleOverlay );
 })();
+
+$(document).ready(function() {
+    $("#StayOpen").hover(
+    function() {
+        $("#theBox_2").slideDown(500);
+    }, function() {
+        $("#theBox_2").slideUp(500);
+    });
+});
