@@ -179,7 +179,8 @@ background: -o-linear-gradient(top, rgba(255,243,138,1) 0%, rgba(255,243,138,1) 
 background: -ms-linear-gradient(top, rgba(255,243,138,1) 0%, rgba(255,243,138,1) 29%, rgba(247,124,80,1) 69%, rgba(244,31,42,1) 93%, rgba(244,31,42,1) 100%);
 background: linear-gradient(to bottom, rgba(255,243,138,1) 0%, rgba(255,243,138,1) 29%, rgba(247,124,80,1) 69%, rgba(244,31,42,1) 93%, rgba(244,31,42,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff38a', endColorstr='#f41f2a', GradientType=0 ); !important; }
-body.scene-4-active { background: rgb(244,222,0) !important; }
+body.scene-4-active { background: url('../assets/images/animation4.jpg') no-repeat center center fixed;
+background-size: cover;}
 
 
 

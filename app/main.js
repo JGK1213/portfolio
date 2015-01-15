@@ -51,7 +51,7 @@ $(function() {
 
         // Create Animation for 0.5s
   var tween4 = TweenMax.to('#animation-4', 0.9, {
-    backgroundColor: 'rgb(180,24,6))',
+    backgroundColor: 'rgb(216,50,20, 0.7)',
     scale: 10,
     rotation: 360
   });
