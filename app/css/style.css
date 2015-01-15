@@ -1,7 +1,8 @@
 
 /* Ignore => Base Styles */
 body { background: #e3e3e3; -webkit-font-smoothing: antialiased; }
-.ScrollSceneIndicators { z-index: 9999999 !important; }
+.ScrollSceneIndicators { z-index: 9999999 !important; 
+}
 
 /* Ignore => Useless Header Styles */
 header {
@@ -181,6 +182,14 @@ background: linear-gradient(to bottom, rgba(255,243,138,1) 0%, rgba(255,243,138,
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff38a', endColorstr='#f41f2a', GradientType=0 ); !important; }
 body.scene-4-active { background: url('../assets/images/animation4.jpg') no-repeat center center fixed;
 background-size: cover;}
+
+footer{
+  background: #241b41;
+  color: #fff;
+  font-size: 1em;
+  text-align: center;
+  padding: .5em 0;
+}
 
 
 
