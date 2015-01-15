@@ -148,11 +148,11 @@ main { padding: 200px 0 100px 0; overflow: hidden; }
 
 
 /* SCENE COLORS */
-body {
-/*  -webkit-transition: all 1500ms ease;
+/*body {
+  -webkit-transition: all 1500ms ease;
   -moz-transition: all 1500ms ease;
   transition: all 1500ms ease;
-*/}
+}*/
 body.scene-1-active { background: url('../assets/images/animation1.jpg') no-repeat center center fixed;
 background-size: cover;
 

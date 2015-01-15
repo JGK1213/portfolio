@@ -69,9 +69,9 @@ $(function() {
   
   
   // Add debug indicators fixed on right side
-  scene1.addIndicators();
-  scene2.addIndicators();
-  scene3.addIndicators();
-  scene4.addIndicators();
+  // scene1.addIndicators();
+  // scene2.addIndicators();
+  // scene3.addIndicators();
+  // scene4.addIndicators();
   
 });
