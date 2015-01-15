@@ -30,12 +30,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e1334', end
 }
 
 header * { text-shadow: 0px 1px 1px rgba(150, 150, 150, 0.35); }
-header h1 { margin-top: 150px; font-size: 50px;  }
-header h1 i.fa-sun-o { color: #111; }
+header h1 { margin-top: 150px; font-size: 50px; }
+/*header h1 i.fa-sun-o { color: #111; }
 header h1 i.fa-map-marker { color: #111; }
 header h1 i.fa-gamepad { color: #111; }
 header h1 i.fa-paint-brush { color: #111; }
-header h1 i.fa-smile { color: #111; }
+header h1 i.fa-smile { color: #111; }*/
 
 header hr { max-width: 90px; border-top: solid 2px #fff; }
 header h2 {  margin-bottom: 20px; }
@@ -74,7 +74,6 @@ main h2 a:hover {
 
   color: #fff;
   position: relative;
-  
  
 }
 
@@ -86,7 +85,7 @@ main { padding: 200px 0 100px 0; overflow: hidden; }
 /* Styles for wrap for demo */
 .wrap {
   text-align: center;
-  background: rgb(0, 0, 0, 0.7);
+  /*background: rgba(0, 0, 0, 0.7);*/
   padding: 50px 0;
   -moz-box-shadow: 0 0 6px rgba(153, 153, 153, 0.25);
   -webkit-box-shadow: 0 0 6px rgba(153, 153, 153, 0.25);
@@ -101,33 +100,33 @@ main { padding: 200px 0 100px 0; overflow: hidden; }
   /*background: #fff;*/
   width: 100px;
   height: 100px;
-  border-radius: 100%;
+  border-radius: 75%;
   margin: 50px auto;
-  /*position: relative;*/
+  position: relative;
 }
 #animation-1 {
   background: rgb(226,168,229);
-  z-index: -100;
+  /*z-index: -100;*/
   position: relative;
 
 }
 #animation-2 {
   background: rgb(49,57,176);
-  z-index: -100;
+  /*z-index: -100;*/
   position: relative;
   
 }
 
 #animation-3 {
   background: rgb(246,62,52);
-  z-index: -100;
+  /*z-index: -100;*/
   position: relative;
   
 }
 
 #animation-4 {
   background: rgb(249,163,172);
-  z-index: -100;
+  /*z-index: -100;*/
   position: relative;
   
 }
