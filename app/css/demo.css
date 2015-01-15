@@ -15,8 +15,8 @@
 .clearfix:after { clear: both; }*/
 
 body {
-	background: #fff;
-	color: #8a8c7e;
+	background: #241b41;
+	color: #241b41;
 	font-size: 100%;
 	/*line-height: 1.25;*/
 	font-family: 'Lato', 'Avenir Next', Arial, sans-serif;
@@ -104,7 +104,7 @@ body {
 .codrops-demos a,
 section button {
 	display: inline-block;
-	background: #85b91e;
+	background: #07d4a6;
 	/*background: #a9a9a9;*/
 	/*color: #fff;*/
 	font-weight: 400;
@@ -116,6 +116,7 @@ section button {
 	letter-spacing: 1px;
 	padding: 10px 25px;
 	outline: none;
+	position: relative;
 
 }
 

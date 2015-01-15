@@ -5,7 +5,7 @@
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: rgba(153,204,51,0.9);
+	background: rgba(86,223,192,0.7);
 }
 
 /* Overlay closing cross */
@@ -63,7 +63,7 @@
 
 .overlay ul li a:hover,
 .overlay ul li a:focus {
-	color: #e3fcb1;
+	color: #111;
 }
 
 /* Effects */

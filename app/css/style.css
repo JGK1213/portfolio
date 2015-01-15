@@ -31,11 +31,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e1334', end
 
 header * { text-shadow: 0px 1px 1px rgba(150, 150, 150, 0.35); }
 header h1 { margin-top: 150px; font-size: 50px;  }
-header h1 i.fa-sun-o { color: rgb(39, 97, 223); }
-header h1 i.fa-map-marker { color: rgb(221, 75, 80); }
-header h1 i.fa-gamepad { color: rgb(221, 75, 80); }
-header h1 i.fa-paint-brush { color: rgb(221, 75, 80); }
-header h1 i.fa-smile { color: rgb(221, 75, 80); }
+header h1 i.fa-sun-o { color: #111; }
+header h1 i.fa-map-marker { color: #111; }
+header h1 i.fa-gamepad { color: #111; }
+header h1 i.fa-paint-brush { color: #111; }
+header h1 i.fa-smile { color: #111; }
 
 header hr { max-width: 90px; border-top: solid 2px #fff; }
 header h2 {  margin-bottom: 20px; }
@@ -61,8 +61,26 @@ header i.fa-angle-double-down:after {
   width: 104px;
 }
 
+main h2 a {
+
+  color: #fff;
+  position: relative;
+  bottom: 60px;
+
+
+}
+
+main h2 a:hover {
+
+  color: #fff;
+  position: relative;
+ 
+}
+
+
 /* Create huge scrolling area (imitates height of a page) */
 main { padding: 200px 0 100px 0; overflow: hidden; }
+
 
 /* Styles for wrap for demo */
 .wrap {
@@ -79,13 +97,41 @@ main { padding: 200px 0 100px 0; overflow: hidden; }
 
 /* Default Animation Styles */
 .animation {
-  background: #3b236c;
+  /*background: #fff;*/
   width: 100px;
   height: 100px;
   border-radius: 100%;
   margin: 50px auto;
-  position: relative;
+  /*position: relative;*/
 }
+#animation-1 {
+  background: rgb(226,168,229);
+  z-index: -100;
+  position: relative;
+
+}
+#animation-2 {
+  background: rgb(49,57,176);
+  z-index: -100;
+  position: relative;
+  
+}
+
+#animation-3 {
+  background: rgb(246,62,52);
+  z-index: -100;
+  position: relative;
+  
+}
+
+#animation-4 {
+  background: rgb(249,163,172);
+  z-index: -100;
+  position: relative;
+  
+}
+
+
 .animation i {
   color: #fff;
   position: absolute;
@@ -103,13 +149,36 @@ main { padding: 200px 0 100px 0; overflow: hidden; }
 
 /* SCENE COLORS */
 body {
-  -webkit-transition: all 300ms ease;
-  -moz-transition: all 300ms ease;
-  transition: all 300ms ease;
-}
-body.scene-1-active { background-image: url('http://placekitten.com/400/500?image=1') !important; }
-body.scene-2-active { background: rgb(0, 205, 150) !important; }
-body.scene-3-active { background: rgb(2, 0, 60) !important; }
+/*  -webkit-transition: all 1500ms ease;
+  -moz-transition: all 1500ms ease;
+  transition: all 1500ms ease;
+*/}
+body.scene-1-active { background: url('../assets/images/animation1.jpg') no-repeat center center fixed;
+background-size: cover;
+
+/*background-position: fill;*/
+
+/*background-repeat: no-repeat;*/
+/*background-size: cover;*/
+/*
+height: 100vh;
+*/}
+body.scene-2-active { background: rgba(0,76,148,1);
+background: -moz-linear-gradient(top, rgba(0,76,148,1) 0%, rgba(0,76,148,1) 36%, rgba(0,235,219,1) 82%, rgba(138,255,224,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,76,148,1)), color-stop(36%, rgba(0,76,148,1)), color-stop(82%, rgba(0,235,219,1)), color-stop(100%, rgba(138,255,224,1)));
+background: -webkit-linear-gradient(top, rgba(0,76,148,1) 0%, rgba(0,76,148,1) 36%, rgba(0,235,219,1) 82%, rgba(138,255,224,1) 100%);
+background: -o-linear-gradient(top, rgba(0,76,148,1) 0%, rgba(0,76,148,1) 36%, rgba(0,235,219,1) 82%, rgba(138,255,224,1) 100%);
+background: -ms-linear-gradient(top, rgba(0,76,148,1) 0%, rgba(0,76,148,1) 36%, rgba(0,235,219,1) 82%, rgba(138,255,224,1) 100%);
+background: linear-gradient(to bottom, rgba(0,76,148,1) 0%, rgba(0,76,148,1) 36%, rgba(0,235,219,1) 82%, rgba(138,255,224,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004c94', endColorstr='#8affe0', GradientType=0 ); !important; }
+body.scene-3-active { background: rgba(255,243,138,1);
+background: -moz-linear-gradient(top, rgba(255,243,138,1) 0%, rgba(255,243,138,1) 29%, rgba(247,124,80,1) 69%, rgba(244,31,42,1) 93%, rgba(244,31,42,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,243,138,1)), color-stop(29%, rgba(255,243,138,1)), color-stop(69%, rgba(247,124,80,1)), color-stop(93%, rgba(244,31,42,1)), color-stop(100%, rgba(244,31,42,1)));
+background: -webkit-linear-gradient(top, rgba(255,243,138,1) 0%, rgba(255,243,138,1) 29%, rgba(247,124,80,1) 69%, rgba(244,31,42,1) 93%, rgba(244,31,42,1) 100%);
+background: -o-linear-gradient(top, rgba(255,243,138,1) 0%, rgba(255,243,138,1) 29%, rgba(247,124,80,1) 69%, rgba(244,31,42,1) 93%, rgba(244,31,42,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,243,138,1) 0%, rgba(255,243,138,1) 29%, rgba(247,124,80,1) 69%, rgba(244,31,42,1) 93%, rgba(244,31,42,1) 100%);
+background: linear-gradient(to bottom, rgba(255,243,138,1) 0%, rgba(255,243,138,1) 29%, rgba(247,124,80,1) 69%, rgba(244,31,42,1) 93%, rgba(244,31,42,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff38a', endColorstr='#f41f2a', GradientType=0 ); !important; }
 body.scene-4-active { background: rgb(244,222,0) !important; }
 
 
